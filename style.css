@@ -1,0 +1,21 @@
+.main-title {
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #00BFFF;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.search-title{
+    font-weight: bold;   
+    font-size: 25px; 
+}
+
+.cityList {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
