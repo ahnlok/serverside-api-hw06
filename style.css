@@ -1,21 +1,9 @@
-.main-title {
-    width: 100%;
-    font-weight: bold;
+h1 {
+    background-color:#FF8C00;
     color: white;
-    text-align: center;
-    background-color: #00BFFF;
-    padding-top: 5px;
-    margin-bottom: 5px;
-    
-}
-
-.search-title{
-    font-weight: bold;   
-    font-size: 25px; 
-}
-
-.cityList {
-    text-align: center;
+    padding: 5px;
     font-weight: bold;
-    color: black;
+}
+#forcast {
+    position: absolute;
 }
