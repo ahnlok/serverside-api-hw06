@@ -24,7 +24,7 @@ $(document).ready(function () {
         weatherFunction($(this).text());
         weatherForecast($(this).text());
     });
-    window.onload = window.localStorage.clear(); //When refresh the page, refresh all the search results
+    window.onload = window.localStorage.clear(listEl); //When refresh the page, refresh all the search results
 
     function weatherFunction(searchTerm){
     
