@@ -4,9 +4,10 @@ h1 {
     padding: 5px;
     font-weight: bold;
 }
-h4 {
-   
+.container {
+    display: flex;
+    justify-content: center;
 }
 #forcast {
-    position: absolute;
+    left: -5%;
 }
