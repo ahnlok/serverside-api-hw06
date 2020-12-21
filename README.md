@@ -1,7 +1,7 @@
 # Today's Weather
 
 ## Description:
-* ##### This is the Today's Weather created with AJAX and API with <https://openweather.org> using HTML/CSS with Jquery, Bootstrap, Font-Awesome.
+* ##### This is the Today's Weather created with AJAX and API with <https://openweather.org> using HTML/CSS with Jquery, Bootstrap, and Font-Awesome.
  ---
  ## Table of Contents:
 * [Features](#features)
