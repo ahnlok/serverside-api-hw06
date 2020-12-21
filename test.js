@@ -24,7 +24,7 @@ $(document).ready(function () {
         weatherFunction($(this).text());
         weatherForecast($(this).text());
     });
-    window.onload = window.localStorage.clear(history); //When refresh the page, refresh all the search results
+    window.onload = window.sessionStorage.clear(history); //When refresh the page, refresh all the search results
 
     function weatherFunction(searchTerm){
     
@@ -38,7 +38,7 @@ $(document).ready(function () {
 
             if(history.indexOf(searchTerm) === -1) {
                 history.push(searchTerm);
-                localStorage.setItem("history", JSON.stringify(history));
+                sessionStorage.setItem("history", JSON.stringify(history));
                 createRow(searchTerm);
             }
             //To clear out previous search lists
